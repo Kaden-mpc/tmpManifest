@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+	<remote name="Kaden-mpc" fetch="https://github.com/Kaden-mpc" />
+
+	<default remote="Kaden-mpc" revision="main" sync-j="4" />
+
+	<project remote="Kaden-mpc" path="tmp" name="tmp" revision="fd175d3c34f84ced7c0d7fe9de12747c732549cf" upstream="main" />
+	<project remote="Kaden-mpc" path="tmp/testing_repo1" name="tmp_testing_repo1" revision="d1f10370d29d7b5eee581a55cfa0b7a236bb4751" upstream="main" />
+	<project remote="Kaden-mpc" path="tmp/testing_repo2" name="tmp_testing_repo2" revision="c657c880fd4b8bbc752bfa328406f154cc93d305" upstream="main" />
+	<project remote="Kaden-mpc" path="tmp/testing_repo2/sub_repo3" name="tmp_testing_repo2_sub_repo3" revision="571db77364b664ea41faa33f7caf50e59228427a" upstream="main" />
+</manifest>
